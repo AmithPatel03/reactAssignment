@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body> 
+    
+    <form action="registration.html">
+        <fieldset style="background-color: aquamarine; border: 2px solid darkblue; margin: auto; width: 50%;">
+          <legend>Registration Form</legend>
+          Name
+          <input type="text" id="name" name="name" placeholder="Enter your name"><br><br>
+      
+          Address
+          <input type="text" id="address" name="address" placeholder="Enter your address"><br><br>
+      
+          <label for="gender">Gender:</label>
+          <input type="radio" id="male" name="gender" value="male" required>
+          <label for="male">Male</label>
+          <input type="radio" id="female" name="gender" value="female" required>
+          <label for="female">Female</label>
+          <input type="radio" id="other" name="gender" value="other" required>
+          <label for="other">Other</label><br><br>
+      
+          <label for="qualification">Qualification:</label>
+          <select id="qualification" name="qualification" required>
+            <option value="">Select qualification</option>
+            <option value="BE">BE</option>
+            <option value="ME">ME</option>
+            <option value="Graduation">Graduation</option>
+          </select><br><br>
+      
+          <input type="submit" value="Submit">
+        </fieldset>
+      </form>
+
+</body>
+</html>
